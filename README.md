@@ -37,7 +37,7 @@ Create a new DataFrame that holds only the cryptocurrency names, and use the cry
 Remove the CoinName column from the crypto_df DataFrame since it's not going to be used on the clustering algorithm.
 Take a moment to check that your crypto_df DataFrame looks like the image below
 
-D1.png
+![](resources/D1.png)
 
 
 
@@ -53,7 +53,7 @@ HINT
 Create a new DataFrame named pcs_df that includes the following columns, PC 1, PC 2, and PC 3, and uses the index of the crypto_df DataFrame as the index.
 Your DataFrame should look like the image below
 
-D2.png
+![](resources/D2.png)
 
 ## Deliverable 3: Clustering Cryptocurrencies Using K-means
 
@@ -71,7 +71,7 @@ Add the CoinName column that holds the names of the cryptocurrencies, which you 
 Add another new column to the clustered_df named Class that holds the predictions, i.e., model.labels_, from Step 3.
 Your clustered_df DataFrame should look like the image below:
 
-D3.png
+![](resources/D3.png)
 
 
 ## Deliverable 4: Visualizing Cryptocurrencies Results
@@ -90,7 +90,7 @@ If you’d like a hint on how to use the hvplot.table() function, that’s total
 
 Your table should look like the table in the image below:
 
-D4.png
+![](resources/D4.png)
 
 
 
@@ -103,13 +103,25 @@ Add the CoinName column from the clustered_df DataFrame to the new DataFrame.
 Add the Class column from the clustered_df DataFrame to the new DataFrame.
 Your new DataFrame should look similar to the image below:
 
-D4.1.png
+![](resources/D4.1.png)
 
 Create an hvplot scatter plot with x="TotalCoinsMined", y="TotalCoinSupply", and by="Class", and have it show the CoinName when you hover over the the data point.
 If you’d like a hint on how to add the CoinName column data when you hover over a data point, that’s totally okay. If not, that’s great too. You can always revisit this later if you change your mind.
 
-D4.1.2.png
+![](resources/D4.1.2.png)
 
 
 # Summary 
 
+I was able to learn the following subjects to be able to deliver the challenge deliverables.  
+
+Describe the differences between supervised and unsupervised learning, including real-world examples of each.
+Preprocess data for unsupervised learning.
+Cluster data using the K-means algorithm.
+Determine the best amount of centroids for K-means using the elbow curve.
+Use PCA to limit features and speed up the model.
+
+- Deliverable 1: Preprocessing the Data for PCA
+- Deliverable 2: Reducing Data Dimensions Using PCA
+- Deliverable 3: Clustering Cryptocurrencies Using K-means
+- Deliverable 4: Visualizing Cryptocurrencies Results
